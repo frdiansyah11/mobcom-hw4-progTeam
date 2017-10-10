@@ -7,6 +7,7 @@
 Untuk memindahkan hal-hal di sekitar, Anda harus menerapkan kekuatan atau impuls ke tubuh. Pasukan bertindak secara bertahap dari waktu ke waktu untuk mengubah kecepatan tubuh sementara impuls dapat mengubah kecepatan tubuh segera.
 
 <strong>Linear movement</strong>
+
 Kita perlu beberapa cara untuk mempengaruhi badan-badan ini tanpa menggunakan mouse. Sekarang akan menjadi waktu yang baik untuk memeriksa fitur input keyboard dari testbed. Menimpa fungsi Keyboard dari kelas Test untuk menggunakan metode yang berbeda untuk masing-masing tubuh
 
 <strong>Angular</strong>
