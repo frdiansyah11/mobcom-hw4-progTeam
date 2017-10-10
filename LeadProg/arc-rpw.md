@@ -7,4 +7,28 @@ Tidak hanya bertipe side-scrolling, game yang akan dibuat ini juga berjenis "Run
 
 Berdasarkan Game Architecture Lecture dari thegamedesigninitiative Cornell University, ada beberapa hal yang perlu diperhatikan untuk membuat arsitektur sebuah game, yaitu:
 
-* 
+<img align="middle" src="https://user-images.githubusercontent.com/30854454/31384038-775eda76-ade7-11e7-9664-4e31d5efb7ef.png">
+
+* Game Content
+
+  Di dalam Game Content ini berisikan model atau asset yang dibutuhkan game untuk menampilkan bermacam hal seperti Character Scripts, Character Data, UI Elements, Model and Textures, dan Sounds. Progammer menyediakan class-class yang dibutuhkan desainer untuk memasukkan data-data yang diperlukan untuk menampilkan model yang digunakan
+  
+* Game Engine
+  Di bagian ini berisikan class-class yang diperlukan untuk mengontrol berbagai macam perhitungan dan logika yang diperlukan untuk sebuah permainan. Seperti pengaturan Input yang dilakukan pemain, pengaturan simulasi physics yang terjadi di dalam game, pengelolaan model yang ada, dan pengaturan sebuah GUI untuk ditampilkan nantinya untuk pemain. Itu semua telah diatur didalam class-class dari Game Engine yang dibuat oleh programmer
+  
+Adapun pola yang digunakan di dalam sebuah game, yaitu MVC (Model, View Controller). MVC memudahkan kita untuk memisahkan class-class yang akan digunakan lalu memberikan class tersebut bermacam implementasi sesuai dengan pola yang digunakan adalah Model, View, ataupun Controller.
+
+* Model
+  Model ini mendefinisikan data-data dari unsur dalam sebuah permainan, lalu memberikan respon dari permintaan controller. Jadi di dalam Model berisikan mengenai data-data yang digunakan.
+  
+* View
+  View menampilkan model-model yang sudah disediakan untuk pemain dan juga menyediakan interface untuk controller yang nantinya akan diolah oleh controller untuk melakukan komputasi dan logika.
+  
+* Controller
+  Controller melakukan update model dalam sebuah respon untuk events, maksudnya jika seorang pemain melakukan sebuah event seperti input, maka controller harus mengolahnya sesuai dengan apa yang dimasukkan pemain untuk dikelola nantinya di dalam controller. Controller juga akan mengupdate view sesuai model yang telah diubah jika pemain melakukan event.
+  
+Sampai disana saja penjelasannya, untuk mendukung game side-scrolling yang kami buat, kami menggunakan aplikasi third-party *Overlap2D* untuk penempatan model-model yang dibuat dan membuat world yang akan digunakan di game tersebut.
+
+Setelah mengikuti sedikit tutorial dari Overlap2D, kami membangun arsitektur sederhana yang akan digunakan nantinya untuk mengembangkan game ke tingkat yang lebih lanjut.
+
++ComingSoon+
