@@ -50,7 +50,7 @@ Setelah mengikuti sedikit tutorial dari Overlap2D, kami membangun arsitektur sed
   
 * UIStage
 
-  Class UIStage untuk memberikan tombol-tombol yang akan digunakan oleh pemain untuk memainkan game dan untuk memberikan UI yang lainnya jike diperlukan
+  Class UIStage untuk memberikan tombol-tombol yang akan digunakan oleh pemain untuk memainkan game dan untuk memberikan UI yang lainnya jika diperlukan
   
 ### View
 
