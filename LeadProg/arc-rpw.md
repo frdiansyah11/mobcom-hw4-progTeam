@@ -35,4 +35,42 @@ Sampai disana saja penjelasannya, untuk mendukung game side-scrolling yang kami 
 
 Setelah mengikuti sedikit tutorial dari Overlap2D, kami membangun arsitektur sederhana yang akan digunakan nantinya untuk mengembangkan game ke tingkat yang lebih lanjut.
 
-+ComingSoon+
+## Run Pass World Game Architecture
+
+| Model | View | Controller |
+| ----- | -----|-----      |
+|PlatformComponent|GDXRoot|PlatformSystem|
+|UIStage||PlayerController|
+
+### View
+
+* PlatformComponent
+
+  Class untuk memberikan informasi dari platform, mengenai posisi dan timepass pada saat platform tersebut berada
+  
+* UIStage
+
+  Class UIStage untuk memberikan tombol-tombol yang akan digunakan oleh pemain untuk memainkan game dan untuk memberikan UI yang lainnya jike diperlukan
+  
+### View
+
+* GDXRoot
+
+  Class utama dari LibGDX
+  
+### Controller
+
+* PlatformSystem
+
+  Class untuk memberikan platform sebuah logika seperti, otomatis bergerak secara vertikal
+  
+* PlayerController
+
+  Class untuk menggerakan Player. Untuk game kami player bisa melakukan jump dan shoot
+  
+  
+## Conclusion
+
+Arsitektur yang kami gunakan merupakan source code dari contoh game platformer side-scrolling menggunakan aplikasi third-party Overlap2D. Oleh karena itu kami masih berlatih menggunakannya untuk menjembatani desainer/artist untuk memasukkan modelnya ke dalam projek Game LibGDX kami.
+
+First Project Code : [Run Pass World Game](asd)
