@@ -42,7 +42,7 @@ Setelah mengikuti sedikit tutorial dari Overlap2D, kami membangun arsitektur sed
 |PlatformComponent|GDXRoot|PlatformSystem|
 |UIStage||PlayerController|
 
-### View
+### Model
 
 * PlatformComponent
 
@@ -71,6 +71,6 @@ Setelah mengikuti sedikit tutorial dari Overlap2D, kami membangun arsitektur sed
   
 ## Conclusion
 
-Arsitektur yang kami gunakan merupakan source code dari contoh game platformer side-scrolling menggunakan aplikasi third-party Overlap2D. Oleh karena itu kami masih berlatih menggunakannya untuk menjembatani desainer/artist untuk memasukkan modelnya ke dalam projek Game LibGDX kami.
+Arsitektur yang kami gunakan merupakan source code dari contoh game platformer side-scrolling menggunakan aplikasi third-party Overlap2D. Kami masih berlatih menggunakannya untuk menjembatani desainer/artist untuk memasukkan modelnya ke dalam projek Game LibGDX kami. Pada saat ini untuk melakukan test game, kami masih menggunakan application desktop, karena jauh lebih cepat untuk compile daripada melakukan run build di Android.
 
-First Project Code : [Run Pass World Game](asd)
+First Project Code : [Run Pass World Game](https://github.com/frdiansyah11/RunPassWorld)
