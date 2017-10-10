@@ -5,4 +5,6 @@
 
 [Architecture Estimation - Run Pass World Game](LeadProg/arc-rpw.md)
 
-[study especially reagarding graphics, sprites](Graphics_Sprites.md)
+[Study especially reagarding graphics, sprites](Graphics_Sprites.md)
+
+[Study graphics perspective](Graphics_Perspective.md)
