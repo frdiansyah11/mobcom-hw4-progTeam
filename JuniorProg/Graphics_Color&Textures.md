@@ -1,6 +1,7 @@
 # Graphics : Color & Texture
 
 <strong>Mesh</strong>
+
 Konstruktor kelas Mesh memiliki beberapa parameter. Yang pertama menentukan apakah jala itu statis. Setting ini ke true akan memungkinkan optimasi OpenGL bermanfaat bagi mesh yang tidak banyak berubah (yaitu setiap frame). Parameter kedua dan ketiga menentukan jumlah simpul dan indeks mesh ini. Karena jala mewakili segitiga, ia memiliki tiga simpul. Setiap simpul digunakan sekali dalam rendering segitiga, sehingga Mesh membutuhkan tiga indeks.
 
 Contoh:
