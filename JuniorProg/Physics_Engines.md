@@ -28,6 +28,7 @@ Gerakan sudut juga dapat dikontrol oleh kekuatan-kekuatan dan dorongan, dengan b
 <li>Iterasi Perlengkapan di Tubuh</li>
 <li>Pembersih</li>
 
+
 <strong>Box2D C++ tutorials - Collision callbacks</strong>
 
 <strong>Callback</strong>
